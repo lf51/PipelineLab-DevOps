@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode: per-user state
+xcuserdata/
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+
+# Signing material: NEVER commit, this repository is public
+*.p12
+*.cer
+*.certSigningRequest
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Local secrets and environment files
+.env
+.env.*
